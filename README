@@ -4,3 +4,4 @@ Things to potentially continue with:
 
 -Making webpack in charge of copying index.html to the build folder
 -Getting tests up and running
+-Add scss if you like
