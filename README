@@ -1,0 +1,6 @@
+Simple js project which will allow you to write your code in es2017 built using webpack
+
+Things to potentially continue with:
+
+-Making webpack in charge of copying index.html to the build folder
+-Getting tests up and running
