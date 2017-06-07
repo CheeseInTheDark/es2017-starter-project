@@ -1,0 +1,24 @@
+{
+  "name": "es6-starter-project",
+  "version": "1.0.0",
+  "description": "Just compiles your js into a bundle file, transpiling ES6 to ES5 via webpack, and loads sources it into an index.html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo set up your test command",
+    "build": "./build.sh"
+  },
+  "author": "CheeseInTheDark",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "lodash": "^4.17.4",
+    "path": "^0.12.7",
+    "webpack": "^2.6.1"
+  }
+}
