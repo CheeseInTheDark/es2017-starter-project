@@ -4,11 +4,20 @@
   "description": "Just compiles your js into a bundle file, transpiling ES2017 to ES5 via webpack/babel, and loads sources it into an index.html",
   "main": "index.js",
   "scripts": {
-    "test": "echo set up your test command",
+    "test": "jest",
     "build": "./build.sh"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    }
   },
   "author": "CheeseInTheDark",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/CheeseInTheDark/es2017-starter-project.git"
+  },
   "dependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",
